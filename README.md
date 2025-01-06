@@ -25,6 +25,10 @@ will also speed and ease your hardware development of real-time DSP applications
 new board reduces design work with freely downloadable and duplicable board schematics 
 and design files. A wide variety of standard interfaces for connectivity and storage enable 
 you to easily bring audio, video and other signals onto the board. 
+![Screenshot 2025-01-05 183412](https://github.com/user-attachments/assets/47a1292f-b1ab-472b-bdb6-02e0b20d0122)
+![Screenshot 2025-01-05 183425](https://github.com/user-attachments/assets/6199f1e3-747b-4ecc-9f2d-6fb3356eab56)
+
+
 
 ### CODE
 **Question**:Write a C program to implement a 4th-order low-pass Butterworth filter with a cutoff frequency of 5 kHz and a sampling rate of 48 kHz. The program should generate a 1 kHz sine wave as the input signal, apply the Butterworth filter, and print the filtered output values. Use precomputed coefficients for the Butterworth filter and ensure the program handles buffer processing efficiently.
