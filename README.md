@@ -10,6 +10,7 @@ We had designed and implemented a **Low Pass Butterworth Filter**
 |2|Vishal Deshpande|
 |3|Tushar Punywant|
 |4|Sagar Halkarni|
+### Guide:Prof.Amit
 
 Processor used:**TMS320C6748**.<br>
 Sofware Used:**CodeComposerStudio IDE v7**.<br>
