@@ -2,7 +2,7 @@
 
 The Digital Signal Processing (DSP) and Architecture course provided a comprehensive understanding of signal analysis and manipulation using digital techniques. We studied various types of filters, including Infinite Impulse Response (IIR) filters and digital filters, focusing on their design, implementation, and applications. Additionally, we explored programmable digital processors, learning how they can be used to efficiently process signals in real-time. This course combined theoretical concepts with practical skills, preparing us to tackle real-world signal processing challenges.
 ## Course Project
-We had designed and implemented a **Low Pass Butterworth Filter**
+We had designed and implemented a **Low Pass Butterworth Filter**.
 ### Team
 |Sl.no|Name|
 |---|----|
@@ -11,6 +11,7 @@ We had designed and implemented a **Low Pass Butterworth Filter**
 |3|Tushar Punywant|
 |4|Sagar Halkarni|
 ### Guide:Prof.Amit
+
 
 Processor used:**TMS320C6748**.<br>
 Sofware Used:**CodeComposerStudio IDE v7**.<br>
@@ -26,7 +27,7 @@ and design files. A wide variety of standard interfaces for connectivity and sto
 you to easily bring audio, video and other signals onto the board. 
 
 ### CODE
-**Question**:Write a C program to implement a 4th-order low-pass Butterworth filter with a cutoff frequency of 5 kHz and a sampling rate of 48 kHz. The program should generate a 1 kHz sine wave as the input signal, apply the Butterworth filter, and print the filtered output values. Use precomputed coefficients for the Butterworth filter and ensure the program handles buffer processing efficiently
+**Question**:Write a C program to implement a 4th-order low-pass Butterworth filter with a cutoff frequency of 5 kHz and a sampling rate of 48 kHz. The program should generate a 1 kHz sine wave as the input signal, apply the Butterworth filter, and print the filtered output values. Use precomputed coefficients for the Butterworth filter and ensure the program handles buffer processing efficiently.
 
     #include <stdio.h>
     #include <math.h>
@@ -110,9 +111,9 @@ you to easily bring audio, video and other signals onto the board.
         output[i] = y_hist[0];
     }
  ## Results
-### On Development KIT
+### On Development KIT:
  ![DSPOUTPUT](https://github.com/user-attachments/assets/cb7db52c-624c-4f7e-bce8-dbcd2c12c4da)
- ### Solving Manually
+ ### Solving Manually:
 y[0] = 0.000000 <br>
 y[1] = 0.130526 <br>
 y[2] = 0.258819 <br>
